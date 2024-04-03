@@ -1,11 +1,15 @@
 /** start of Index page**/  
 #header{
+    height: 100vh;
     width: 100%;
-  
+    background-image: url(/img/theblognycheader4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 body{
   margin: 0;
- 
+  background-color: #BA363D;
   width: 100%;
   height: 100vh;
 }
@@ -29,7 +33,6 @@ h3 {
     flex-direction: column;
     align-items: center; 
     justify-content: center; 
-    margin-top: 7%;
     color: white;
 }  
 
@@ -125,7 +128,6 @@ h3 {
 
 
 
-
 /** start of Blog 1 (Brooklyn Film Camera)**/  
 nav{
     background-color:rgb(173, 39, 59);
@@ -151,15 +153,55 @@ nav{
     background-size: 100% 100%;
 }
 
-#bfc{ 
-  display: flex;
-  flex-direction:column; 
-  justify-content: space-around;
-  align-items: center;
-} 
+#two{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+   
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
 
-article{ 
-  width: 30%;
+#three{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#four{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#five{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 
 
@@ -172,18 +214,62 @@ article{
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
+} 
+
+#six{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#seven{
+    display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#eight{
+      display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+
+#nine{
+   display: flex;
+    flex-direction:row; 
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
 }
 
 
-
-
-
-
-
-/** start of Blog 2 (K & M)**/ 
+/** start of Blog 3 (ELiz Camera)**/ 
 #background3{
   background-image: url(../blog_3/img/background3.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
 }
+
