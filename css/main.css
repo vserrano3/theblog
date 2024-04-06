@@ -55,17 +55,17 @@ h3 {
 }
 
 #reviews{ 
-    font-family: "Monofett", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size:48px;
-    background-color:#820336;
-    color: white;
-    height: 100px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center; 
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size:48px;
+  background-color:#820336;
+  color: white;
+  height: 100px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
 }
 
 #one{ 
@@ -128,6 +128,63 @@ h3 {
     margin-top: 3%;
 }
 
+/**hover effect test**/ 
+.container {
+    position: relative;
+    width: 50%;
+    border: solid 15px rgb(0, 0, 0);
+    border-radius: 20px;
+    border-width: 3px 10px 12px 4px;
+    background-color: rgb(255, 255, 255); 
+  }
+  
+  .image {
+    opacity: 1;
+    display: block;
+    width:50%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .container:hover .image {
+    opacity: 0.3;
+  }
+  
+  .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #BA363D;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+  } 
+  #container{
+    padding: 15px;
+    border: solid 15px rgb(0, 0, 0);
+    border-radius: 20px;
+    border-width: 3px 10px 12px 4px;
+    background-color: rgb(255, 255, 255);
+  }
+
+
+
 
 
 
@@ -162,27 +219,13 @@ font-style: normal;
     background-size: 100% 100%;
 }
 
-#who{
-    font-family: "Monofett", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size:20px;
-    color: white;
-    height: 100px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;  
-    margin-top: 5%;
-    margin-bottom: 1%;
-}
 
 #two{ 
     display: flex;
     flex-direction:row; 
     justify-content: space-around;
     align-items: center;
-    margin-top: 3%;
+    margin-top: 10%;
     margin-left: 5%;
     margin-right:  5%;
     font-family: "Courier Prime", monospace;
@@ -194,51 +237,51 @@ font-style: normal;
     border-style: solid;
     border-width: 3px 10px 12px 4px;
 }
+
+#two img{
+margin: 1%;
+}
+
+#who{
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  color: white;
+  width: 60%; 
+}
+
+#three{ 
+  display: flex;
+  flex-direction:row; 
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-right:  5%;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-color: #E5B67B;
+  border-radius: 20px;
+  border-style: solid;
+  border-width: 3px 10px 12px 4px;
+}
+
+#three img{
+  margin: 1%;
+  }
+
 #services1{
-    font-family: "Monofett", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size:20px;
-    color: white;
-    height: 100px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;  
-    margin-bottom: 1%; 
+  font-family: "Monofett", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  color: white;
+  width: 60%; 
 }
 
-#three{
-    display: flex;
-    flex-direction:row; 
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3%;
-    margin-left: 5%;
-    margin-right:  5%;
-    font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
-    background-color: #E5B67B;
-    border-style: solid;
-    border-radius: 20px;
-    border-width: 3px 10px 12px 4px;
-}
-
-#unique{
-    font-family: "Monofett", monospace;
-    font-weight: 400;
-    font-style: normal;
-    font-size:20px;
-    color: white;
-    height: 100px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;  
-    margin-bottom: 1%; 
-}
 
 #four{
     display: flex;
@@ -257,22 +300,19 @@ font-style: normal;
     border-radius: 20px;
     border-width: 3px 10px 12px 4px;
 }
+#four img{
+  margin: 1%;
+  }
 
-#val{
+  #unique{
     font-family: "Monofett", monospace;
     font-weight: 400;
     font-style: normal;
     font-size:20px;
     color: white;
-    height: 100px; 
-    display: flex;
-    flex-direction: column;
-    align-items: center; 
-    justify-content: center;  
-    margin-bottom: 1%; 
-} 
-
-#five{
+    width: 60%; 
+  }
+  #five{
     display: flex;
     flex-direction:row; 
     justify-content: space-around;
@@ -289,6 +329,25 @@ font-style: normal;
     border-radius: 20px;
     border-width: 3px 10px 12px 4px;
 }
+
+#five img{
+  margin: 1%;
+  }
+  
+#val{
+    font-family: "Monofett", monospace;
+    font-weight: 400;
+    font-style: normal;
+    font-size:20px;
+    color: white;
+    height: 100px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;  
+    margin-bottom: 1%; 
+} 
+
 
 #footerone{ 
     font-family: "Courier Prime", monospace;
@@ -315,16 +374,26 @@ font-style: normal;
 } 
 
 #six{
-    display: flex;
-    flex-direction:row; 
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 3%;
-    font-family: "Courier Prime", monospace;
-    font-weight: 400;
-    font-style: normal;
-    color: white;
+  display: flex;
+  flex-direction:row; 
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10%;
+  margin-left: 5%;
+  margin-right:  5%;
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  background-color: #E5B67B;
+  border-style: solid;
+  border-radius: 20px;
+  border-width: 3px 10px 12px 4px;
 }
+
+#six img{
+margin: 1%;
+}s
 
 #seven{
     display: flex;
