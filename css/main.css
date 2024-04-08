@@ -419,7 +419,7 @@ margin: 1%;
   font-weight: 400;
   font-style: normal;
   color: white;
-  background-color: #E5B67B;
+  background-color: #BA363D;
   border-style: solid;
   border-radius: 20px;
   border-width: 3px 10px 12px 4px;
@@ -444,7 +444,7 @@ iframe{
   flex-direction:row; 
   justify-content: space-around;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 5%;
   margin-right:  5%;
   font-family: "Courier Prime", monospace;
@@ -587,14 +587,14 @@ margin: 1%;
   flex-direction:row; 
   justify-content: space-around;
   align-items: center;
-  margin-top: 10%;
+  margin-top: 3%;
   margin-left: 5%;
   margin-right:  5%;
   font-family: "Courier Prime", monospace;
   font-weight: 400;
   font-style: normal;
   color: white;
-  background-color: #430131;
+  background-color: #8B0034;
   border-radius: 20px;
   border-style: solid;
   border-width: 3px 10px 12px 4px;
@@ -625,7 +625,7 @@ width: 60%;
   font-weight: 400;
   font-style: normal;
   color: white;
-  background-color: #430131;
+  background-color: #8B0034;
   border-radius: 20px;
   border-style: solid;
   border-width: 3px 10px 12px 4px;  
@@ -656,7 +656,7 @@ width: 60%;
     font-weight: 400;
     font-style: normal;
     color: white;
-    background-color: #430131;
+    background-color: #8B0034;
     border-radius: 20px;
     border-style: solid;
     border-width: 3px 10px 12px 4px;  
@@ -687,7 +687,7 @@ width: 60%;
     font-weight: 400;
     font-style: normal;
     color: white;
-    background-color: #430131;
+    background-color: #8B0034;
     border-radius: 20px;
     border-style: solid;
     border-width: 3px 10px 12px 4px;  
@@ -709,4 +709,49 @@ width: 60%;
   align-items: center; 
   justify-content: center;  
   margin-bottom: 1%; 
-    } 
+  } 
+
+  #mapthree{
+      display: flex;
+      flex-direction:row; 
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 10%;
+      margin-left: 5%;
+      margin-right:  5%;
+      font-family: "Courier Prime", monospace;
+      font-weight: 400;
+      font-style: normal;
+      color: white;
+      background-color: #8B0034;
+      border-style: solid;
+      border-radius: 20px;
+      border-width: 3px 10px 12px 4px;
+    }
+    
+    iframe{
+      margin: 1%;
+    }
+    
+    #wherethree{
+      font-family: "Monofett", monospace;
+      font-weight: 400;
+      font-style: normal;
+      font-size:20px;
+      color: white;
+      width: 60%; 
+    }
+
+#footerthree{ 
+  font-family: "Courier Prime", monospace;
+  font-weight: 400;
+  font-style: normal;
+  font-size:20px;
+  color: white;
+  height: 100px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  justify-content: center; 
+  margin-top: 3%;
+}
